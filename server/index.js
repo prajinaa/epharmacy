@@ -6,7 +6,8 @@ const mongoose = require ('mongoose')
 const authRouter = require('./routes/auth.js')
 
 const PORT = 3000;
-const DB = "mongodb+srv://samjhana:heymyappSam@cluster0.1soonog.mongodb.net/?retryWrites=true&w=majority"
+// const DB = "mongodb+srv://Prajina:PannaPassword@cluster0.9hgyzt1.mongodb.net/?retryWrites=true&w=majority";
+const DB = "mongodb+srv://luveen:luveenpassword@cluster0.9hgyzt1.mongodb.net/?retryWrites=true&w=majority";
 const app = express();
 app.use(express.json())
 

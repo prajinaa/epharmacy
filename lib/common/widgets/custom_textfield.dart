@@ -15,13 +15,13 @@ class CustomTextField extends StatelessWidget{
         ),
         decoration: InputDecoration(hintText: hintText),
 
-      validator: (val){},
-    //     if (val == null || val.isEmpty) {
-    //       return 'Enter your $hintText';
-    //     }
-    //     return null;
-    //   },
-    //   maxLines: maxLines,
+      validator: (val){
+        if (val == null || val.isEmpty) {
+          return 'Enter your $hintText';
+        }
+        return null;
+      },
+      //maxLines: maxLines,
     );
   }
 }
