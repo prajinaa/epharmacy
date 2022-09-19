@@ -19,8 +19,10 @@ class AdminServices{
     required String name,
     required String description,
     required double price,
-    required int quantity,
-    required String Composition,
+    // required int quantity,
+    required double quantity,
+    required String composition,
+        // required String Composition,
     // requires String Category,
      required List<File> images,
 

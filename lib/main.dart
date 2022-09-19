@@ -1,6 +1,6 @@
 // ignore_for_file: import_of_legacy_library_into_null_safe
 
-import 'package:epharmacy/Signups/Ins/LandingPage.dart';
+import 'package:epharmacy/features/Signups/Ins/LandingPage.dart';
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
 
@@ -32,4 +32,3 @@ class MyApp extends StatelessWidget {
     ),);
   }
 }
-

@@ -1,7 +1,7 @@
-import 'package:epharmacy/Signups/Ins/RegisterPage1.dart';
+import 'package:epharmacy/features/Signups/Ins/RegisterPage1.dart';
 import 'package:epharmacy/common/widgets/custom_button.dart';
 import 'package:epharmacy/common/widgets/custom_textfield.dart';
-import 'package:epharmacy/services/auth_services.dart';
+import 'package:epharmacy/features/services/auth_services.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -65,6 +65,7 @@ class _RegisterPageState extends State<RegisterPage> {
               children: [
                 CustomTextField(
                   controller: _emailController,
+                  labelText:'Enter your email address' ,
                   hintText: 'Email',
                 ),
                 //  const Text(
@@ -89,7 +90,8 @@ class _RegisterPageState extends State<RegisterPage> {
                 const SizedBox(height: 35),
                 CustomTextField(
                   controller: _passwordController,
-                  hintText: 'Password',
+                  labelText: 'Password',
+                  hintText: 'Enter your password',
                 ),
                 //             const Text(
                 // "Create a Password:",textAlign: TextAlign.left,
@@ -113,7 +115,8 @@ class _RegisterPageState extends State<RegisterPage> {
                 const SizedBox(height: 35),
                 CustomTextField(
                   controller: _nameController,
-                  hintText: 'Name',
+                  labelText: 'Name',
+                  hintText: 'Enter your name',
                 ),
 //               const Text(
 //   "Re-type your password:",
